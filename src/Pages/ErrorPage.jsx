@@ -1,4 +1,3 @@
-import React from 'react';
 import "../Styles/Errorpage.css";
 import errorpage from '../Images/errorpage.jpeg';
 

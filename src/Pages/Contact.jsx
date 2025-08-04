@@ -1,8 +1,7 @@
-import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import "../Styles/Contact.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faLinkedinIn, faYoutube, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faXTwitter, faLinkedinIn, faYoutube, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 function Contact() {
@@ -19,7 +18,7 @@ function Contact() {
         </div>
         <div className="social-media">
           <a href="https://x.com/scorpioncobra52" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faTwitter} id = "contact-logo" />
+            <FontAwesomeIcon icon={faXTwitter} id = "contact-logo" />
           </a>
           <a href="https://www.linkedin.com/in/osher-volotker" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedinIn} id = "contact-logo"/>
@@ -52,7 +51,7 @@ function Contact() {
           <input id="employerPhone" type="number" name="employerPhone" placeholder="optional"  />
           <ValidationError prefix="Phone of Employer" field="employerPhone" errors={state.errors} />
         </label>
-          <p>if international dialing code is different than employer country, please add that to phone or details sections</p>
+          <p>If the international dialing code is different from the employer's country, please add it to the phone or details section.</p>
           
         <label htmlFor="employerCompany">
         Employer Company:
@@ -75,7 +74,6 @@ function Contact() {
             <option value="narrativeDesigner">Narrative Designer</option>
             <option value="gameDesigner">Game Designer</option>
             <option value="levelDesigner">Level Designer</option>
-            <option value="screenWriter">Screen Writer</option>
           </select>
           <ValidationError prefix="Role" field="role" errors={state.errors} />
         </label>

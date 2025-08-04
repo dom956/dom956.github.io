@@ -1,9 +1,11 @@
 .category-page {
   background-color: black;
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
   position: relative;
   z-index: 0;
+  padding-bottom: 60px;
 }
 
 .category-page > h1 {

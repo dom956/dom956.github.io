@@ -1,22 +1,22 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function Footer() {
-  // State to track if the screen is mobile
+  
   const [isMobile, setIsMobile] = useState(false);
 
-  // Effect to check screen width on resize
+  
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 430); // Change 430px as per your requirement
+      setIsMobile(window.innerWidth <= 430); 
     };
 
-    // Initial check
+    
     handleResize();
 
-    // Add event listener for window resize
+    
     window.addEventListener("resize", handleResize);
 
-    // Cleanup event listener on component unmount
+    
     return () => {
       window.removeEventListener("resize", handleResize);
     };

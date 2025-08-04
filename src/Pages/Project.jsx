@@ -1,8 +1,15 @@
-import React from 'react';
 import { useParams } from 'react-router-dom';
 import '../Styles/Project.css';
-import logo from '../Images/Logos/logowhitebg.png';
+
+
 import game2image from '../Images/projectsImages/dont let it grow.png';
+import game3image from "../Images/projectsImages/addictive loop.png";
+import game4image from "../Images/projectsImages/zombie attack.png";
+
+
+import logo from '../Images/Logos/logowhitebg.png';
+
+
 import pdficon from '../Images/ImagesCategories/pdf.png';
 
 import story1 from '../PDF/story1.pdf';
@@ -34,6 +41,28 @@ const Project = () => {
             image: game2image,
             storeLinks: [
               { name: 'Itch.io', url: 'https://dom678.itch.io/dont-let-it-grow' }
+            ],
+          };
+          break;
+
+            case 'game3':
+          project = {
+            id: id,
+            title: 'Addictive Loop',
+            image: game3image,
+            storeLinks: [
+              { name: 'Itch.io', url: 'https://dom678.itch.io/addictive-loop' }
+            ],
+          };
+          break;
+
+            case 'game4':
+          project = {
+            id: id,
+            title: 'Zombie Attack',
+            image: game4image,
+            storeLinks: [
+              { name: 'Itch.io', url: 'https://dom678.itch.io/zombie-attack' }
             ],
           };
           break;

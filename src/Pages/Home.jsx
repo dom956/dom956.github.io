@@ -1,7 +1,6 @@
-import React from 'react';
 import "../Styles/Home.css";
 import image1 from "../Images/projectsImages/escape the humans.png";
-import image2 from '../Images/projectsImages/dont let it grow.png';
+import image2 from '../Images/projectsImages/addictive loop.png';
 import { Link } from 'react-router-dom';
 
 const projectList = {
@@ -10,7 +9,7 @@ const projectList = {
     image: image1
   },
   game2: {
-    projectid: 'game2',
+    projectid: 'game3',
     image: image2
   },
 };

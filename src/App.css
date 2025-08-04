@@ -1,4 +1,4 @@
-/* global styles */
+/* Global styles */
 html, body {
     margin: 0;
     padding: 0;
@@ -8,14 +8,17 @@ html, body {
 
 .app-wrapper {
     display: flex;
+    min-height: 100vh; 
+    flex-direction: column;
 }
 
 .main-content {
     color: white;
+    flex: 1; 
 }
 
 
-/* global styles for desktop devices */
+/* Global styles for desktop devices */
 @media only screen and (min-width: 768px){
     .app-wrapper{
         flex-direction: column;
@@ -27,7 +30,7 @@ html, body {
 }
 
 
-/* global styles for mobile devices */
+/* Global styles for mobile devices */
 @media only screen and (max-width: 430px){
         .app-wrapper{
         flex-direction: column;

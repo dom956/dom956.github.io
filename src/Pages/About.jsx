@@ -1,4 +1,3 @@
-import React from 'react';
 import "../Styles/About.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUnity, faReact, faAngular, faNode, faWordpress, faBootstrap, faHtml5, faJs, faCss3Alt} from '@fortawesome/free-brands-svg-icons';

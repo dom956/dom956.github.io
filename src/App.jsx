@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavbarMenu from './Components/NavbarMenu';
 import Home from './Pages/Home';
@@ -30,7 +29,7 @@ function App() {
                         <Route path="/*" element={<ErrorPage />} />
                     </Routes>
                 </div>
-                <Footer className="footer" />
+                <Footer />
             </div>
     </Router>
   );
