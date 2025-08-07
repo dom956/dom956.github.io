@@ -62,7 +62,8 @@ const Project = () => {
             title: 'Zombie Attack',
             image: game4image,
             storeLinks: [
-              { name: 'Itch.io', url: 'https://dom678.itch.io/zombie-attack' }
+              { name: 'Itch.io', url: 'https://dom678.itch.io/zombie-attack' },
+              {name: 'Unity Play', url: 'https://play.unity.com/en/games/2f450ec6-2f0b-4891-ae08-3ff99ec76eee/zombie-attack'}
             ],
           };
           break;

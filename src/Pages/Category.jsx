@@ -7,6 +7,9 @@ import { faUnity, faReact, faJs, faHtml5, faCss3Alt } from '@fortawesome/free-br
 import audacityicon from "../Images/icons/audacityicon.png";
 import godoticon from "../Images/icons/godoticon.png";
 import kritaicon from "../Images/icons/kritaicon.png";
+import csharpicon from "../Images/icons/csharpIcon.png";
+import gdscripticon from "../Images/icons/gdscripticon.png";
+
 
 
 import splashscreen from '../Images/projectsImages/escape the humans.png';
@@ -40,7 +43,8 @@ const Category = () => {
                     published: '2024',
                     createdWith: [
                         { name: 'Unity', icon: faUnity },
-                        { name: 'Audacity', icon: audacityicon }
+                        { name: 'Audacity', icon: audacityicon },
+                        { name: 'C#', icon: csharpicon }
                     ],
                     image: splashscreen,
                 },
@@ -52,7 +56,8 @@ const Category = () => {
                     platforms: 'WebGL',
                     published: '2025',
                     createdWith: [
-                        {name: 'Godot', icon: godoticon }
+                        {name: 'Godot', icon: godoticon },
+                        { name: 'GDScript', icon: gdscripticon }
                     ],
                     image: game2image,
                 },
@@ -64,7 +69,8 @@ const Category = () => {
                     platforms: 'WebGL',
                     published: '2025',
                     createdWith: [
-                        {name: 'Unity', icon: faUnity }
+                        {name: 'Unity', icon: faUnity },
+                        { name: 'C#', icon: csharpicon }
                     ],
                     image: game3image,
                 },
@@ -77,7 +83,8 @@ const Category = () => {
                     published: '2025',
                     createdWith: [
                         {name: 'Unity', icon: faUnity},
-                        { name: 'Krita', icon: kritaicon }
+                        { name: 'Krita', icon: kritaicon },
+                        { name: 'C#', icon: csharpicon }
                     ],
                     image: game4image,
                 },
@@ -149,7 +156,7 @@ const Category = () => {
                                                     {typeof tool.icon === 'object' ? (
                                                         <FontAwesomeIcon icon={tool.icon} title={tool.name} size="2x" />
                                                     ) : (
-                                                        <img src={tool.icon} alt={tool.name} title={tool.name} className="icon-image" />
+                                                        <img src={tool.icon} alt={tool.name} title={tool.name} className={`icon-image tool-${tool.name.toLowerCase().replace(/[^a-z0-9]/gi, '')}`} />
                                                     )}
                                                 </div>
                                             ))}

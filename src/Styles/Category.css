@@ -116,6 +116,12 @@
   object-fit: contain; 
 }
 
+.tool-gdscript.icon-image {
+  width: 60px;
+  height: 30px;
+}
+
+
 .no-projects-message {
   display: flex;
   justify-content: center;
