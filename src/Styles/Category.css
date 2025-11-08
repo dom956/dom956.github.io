@@ -137,26 +137,28 @@
     display: flex;
     flex-direction: column;
   }
-  .category-page {
-    height: 100vh;
-    overflow: auto;
+
+  .category-box {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .category-info {
+    width: 100%; 
+    text-align: center; 
   }
 
   .category-image {
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-    margin-left: 10px;
+    margin-left: 0;
     margin-right: 0;
-    margin-top: 70px;
-    width: 100%; 
-    height: 100%; 
+    margin-top: 20px;
+    width: 80%; 
+    height: auto;
   }
 
   .category-image img {
-    width: 100%; 
+    width: 100%;
     height: auto;
-    object-fit: contain; 
-    background: none; 
+    object-fit: contain;
   }
 }

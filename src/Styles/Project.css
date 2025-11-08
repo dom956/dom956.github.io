@@ -69,6 +69,13 @@
 }
 
 @media only screen and (max-width: 768px){
+
+ .project-page{
+    height: auto; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
   .project-container{
     width: 90vh;
     justify-content: center;
@@ -78,9 +85,6 @@
 
   #project-trailer{
     width: 40vh;
-    
   }
-  .project-page{
-    height:100vh;
-  }
+  
 }

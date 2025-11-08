@@ -4,7 +4,6 @@
   background-image: url('../Images/background1.jpg'); 
   background-size: cover; 
   background-position: center; 
-  height: 100vh;
 }
 
 html, body {
@@ -127,6 +126,51 @@ body {
     margin-right: 10px;
   }
 
+ .experience-section {
+  margin: 40px 0;
+}
+
+.experience-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+
+.experience-item {
+  display: flex;
+  gap: 15px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 0; 
+  align-items: stretch; 
+}
+
+.experience-left {
+  flex: 0 0 160px;           
+  color: white;
+  font-weight: bold;
+  border-right: 1px solid white;
+  
+  display: flex;              
+  flex-direction: column;     
+  justify-content: center;    
+  align-items: center;        
+  text-align: center;         
+  word-wrap: break-word;      
+}
+
+.experience-left span {
+  font-weight: normal;
+  color: #ccc;
+  margin-top: 5px;
+}
+
+.experience-right {
+  flex: 1; 
+  color: white;
+}
+
   @media only screen and (max-width: 768px){
     .about-page{
       background-size: cover; 
@@ -142,6 +186,7 @@ body {
       width: 150px; 
       height: 120px; 
     }
+
     .text-box{
      width: 100%; 
      height: auto; 
@@ -155,6 +200,7 @@ body {
      word-wrap: break-word; 
      overflow: auto; /* adds scrolling if the content overflows */
       }
+
       .education-details{
         display: flex;
         flex-direction: column;
@@ -162,11 +208,39 @@ body {
         border: 1px solid white;
         padding:  0;
       }
+
       .education-column{
-          border-bottom: 1px solid white;
-        }
-        .about-page{
-          height: auto;
-        }
+        border-bottom: 1px solid white;
+      }
+
+      .about-page{
+        height: auto;
+      }
+
+       .experience-item {
+    flex-direction: column;  
+    gap: 10px;
+  }
+
+  .experience-left {
+    flex: none;              
+    width: 100%;             
+    border-right: none;      
+    border-bottom: 1px solid white; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 10px 0;   
+  }
+
+  .experience-right {
+    width: 100%;
+    padding: 5px ;  
+  }
+
 }
   

@@ -13,6 +13,8 @@ import logo from '../Images/Logos/logowhitebg.png';
 import pdficon from '../Images/ImagesCategories/pdf.png';
 
 import story1 from '../PDF/story1.pdf';
+import story2 from '../PDF/story2.pdf';
+import story3 from '../PDF/story3.pdf';
 
 const Project = () => {
     const { id } = useParams();
@@ -28,8 +30,8 @@ const Project = () => {
             trailerId: '6r9mpLfZKbQ',
             storeLinks: [
               { name: 'Google Play', url: 'https://play.google.com/store/apps/details?id=com.ScorpionCobraStudio.EscapeTheHumans' },
-              { name: 'Itch.io', url: 'https://dom678.itch.io/escape-the-humans'}
-              
+              { name: 'Itch.io', url: 'https://dom678.itch.io/escape-the-humans'},
+              { name: 'Steam', url: 'https://store.steampowered.com/app/3899970/Escape_The_Humans/' }
             ],
           };
           break;
@@ -84,6 +86,25 @@ const Project = () => {
                 pdf: story1,
               };
               break;
+
+               case 'literature2':
+              project = {
+                id: id,
+                title: 'The Seven Deadly Sins',
+                image: pdficon,
+                pdf: story2,
+              };
+              break;
+
+                case 'literature3':
+              project = {
+                id: id,
+                title: 'Piggy Boy',
+                image: pdficon,
+                pdf: story3,
+              };
+              break;
+
         default:
         return <h2>Project not found</h2>;
     }

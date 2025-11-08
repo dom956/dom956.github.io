@@ -22,6 +22,8 @@ import logo from "../Images/Logos/logowhitebg.png";
 
 
 import story1 from "../Images/projectsImages/story1.png";
+import story2 from "../Images/projectsImages/story2.png";
+import story3 from "../Images/projectsImages/story3.png";
 
 
 const Category = () => {
@@ -126,6 +128,24 @@ const Category = () => {
                     creator: 'Osher Volotker',
                     published: '2025',
                     image: story1,
+                },
+                 {
+                    id: 'literature2',
+                    title: 'The Seven Deadly Sins',
+                    description: 'Exploring the seven deadly sins.',
+                    genre: 'Creative Nonfiction',
+                    creator: 'Osher Volotker',
+                    published: '2025',
+                    image: story2,
+                },
+                {
+                    id: 'literature3',
+                    title: 'Piggy Boy',
+                    description: 'Piggy Boy is a rural coming-of-age drama about a young boy’s friendship with a piglet, and the moment that friendship shatters when he discovers the hidden cruelty of adulthood.',
+                    genre: 'Coming of Age',
+                    creator: 'Osher Volotker',
+                    published: '2025',
+                    image: story3,
                 },
             ];
             break;
