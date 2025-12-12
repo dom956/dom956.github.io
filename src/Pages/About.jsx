@@ -16,7 +16,7 @@ function About() {
     { name: "Game Design", startDate: new Date(2023, 7, 1), description: "I design mechanics and levels for my own indie games. Using my strong problem-solving skills, I carefully craft each element and mechanic to be bug-free and create an immersive great experience." },
     { name: "Unity", startDate: new Date(2023, 7, 1), description: "Developing 2D & 3D games in unity engine." },
     { name: "Godot", startDate: new Date(2024, 9, 1), description: "Developing 2D & 3D games in godot engine." },
-    { name: "Narrative Design", startDate: new Date(2023, 7, 1), description: "creating interactive stories for my games. As a writer, I strive to deliver fascinating narratives through gameplay, with every game containing a story waiting to be discovered." },
+    { name: "Narrative Design", startDate: new Date(2023, 7, 1), description: "Creating interactive stories for my games. As a writer, I strive to deliver fascinating narratives through gameplay, with every game containing a story waiting to be discovered." },
     { name: "Game Testing & Analysis", startDate: new Date(2020, 10, 1), description: "I analyze gameplay, mechanics, and storytelling in every game I play. I have a unique, natural talent for spotting bugs and noticing even the smallest details." }
   ];
 
@@ -34,7 +34,7 @@ function About() {
       <div className="profile-section">
         <div className="image-placeholder"></div>
         <div className="text-box">
-          <p>hi, I'm osher volotker, a passionate gamer for games and stories, after so many years with love for video games. I became a developer to build games, and help others build great games. Apart from that I also have the passion for stories, both for games and film. I have experience with unity and Godot engines and a variety of tools. My studio currently include only myself, but hopefully it will grow and more great developers could join in. I focus mainly in video games and film for career paths. You are welcome to check out my site and contact me if you wish to hire me or collaborate. I am a very creative person with deep analysis thinking, a team player, organized, and determined. any story you have to tell the world whenever its a game or a film I will be happy to work with you. You name it, I make it.</p>
+          <p>Hi, I'm osher volotker, a passionate gamer for games and stories, after so many years with love for video games. I became a developer to build games, and help others build great games. Apart from that I also have the passion for stories, both for games and film. I have experience with unity and Godot engines and a variety of tools. My studio currently include only myself, but hopefully it will grow and more great developers could join in. I focus mainly in video games and film for career paths. You are welcome to check out my site and contact me if you wish to hire me or collaborate. I am a very creative person with deep analysis thinking, a team player, organized, and determined. any story you have to tell the world whenever its a game or a film I will be happy to work with you. You name it, I make it.</p>
         </div>
       </div>
 
