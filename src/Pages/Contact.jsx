@@ -1,7 +1,7 @@
 import { useForm, ValidationError } from '@formspree/react';
 import "../Styles/Contact.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXTwitter, faLinkedinIn, faYoutube, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faXTwitter, faYoutube, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 function Contact() {
@@ -19,9 +19,6 @@ function Contact() {
         <div className="social-media">
           <a href="https://x.com/scorpioncobra52" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faXTwitter} id = "contact-logo" />
-          </a>
-          <a href="https://www.linkedin.com/in/osher-volotker" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faLinkedinIn} id = "contact-logo"/>
           </a>
           <a href="https://github.com/dom956" target="_blank" rel="noopener noreferrer" className='github-icon'>
             <FontAwesomeIcon icon={faGithub} id = "contact-logo"/>
