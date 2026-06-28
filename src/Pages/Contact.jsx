@@ -23,7 +23,7 @@ function Contact() {
           <a href="https://github.com/dom956" target="_blank" rel="noopener noreferrer" className='github-icon'>
             <FontAwesomeIcon icon={faGithub} id = "contact-logo"/>
           </a>
-          <a href="https://www.youtube.com/@scorpioncobrastudio" target="_blank" rel="noopener noreferrer" className="youtube-icon">
+          <a href="https://www.youtube.com/@ScorpionCobraStudio-s2z" target="_blank" rel="noopener noreferrer" className="youtube-icon">
             <FontAwesomeIcon icon={faYoutube} id = "contact-logo"/>
           </a>
         </div>
