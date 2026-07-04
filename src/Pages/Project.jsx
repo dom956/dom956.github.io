@@ -27,7 +27,7 @@ const Project = () => {
           project = {
             id: id,
             title: 'Escape The Humans',
-            trailerId: '6r9mpLfZKbQ',
+            trailerId: '5qzjf4Gmssk',
             storeLinks: [
               { name: 'Google Play', url: 'https://play.google.com/store/apps/details?id=com.ScorpionCobraStudio.EscapeTheHumans' },
               { name: 'Itch.io', url: 'https://dom678.itch.io/escape-the-humans'},

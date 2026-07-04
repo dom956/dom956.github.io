@@ -31,6 +31,8 @@ function Contact() {
       <hr className='custom-line' />
       <form onSubmit={handleSubmit}>
         <h2>Employer Details & Job Description</h2>
+        <br />
+        <h4><strong>This form is for employers seeking to hire me only! Submissions offering your own services, or self-applications will be disregarded.</strong></h4>
         <label htmlFor="name">
           Name:
           <input id="name" type="text" name="name" required />
